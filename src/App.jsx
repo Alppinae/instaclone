@@ -1,12 +1,14 @@
-
+import {Box, Container,} from '@material-ui/core'
 import './App.css'
 
 function App() {
 
   return (
-    <>
-      <h1>İnstagram</h1>
-    </>
+    <Container>
+      <Box>
+        <h1>İnstagram</h1>
+      </Box>
+    </Container>
   )
 }
 
