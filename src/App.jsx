@@ -1,13 +1,15 @@
-import {Box, Container,} from '@mui/material'
-import './App.css'
-import {InstagramWrapper} from './companents/instagramWrapper'
+import { Box, Container } from '@mui/material';
+import { InstagramWrapper } from './components/instagramWrapper';
 
 function App() {
-
   return (
-    <Container maxWidth="lg" width="100%" height="100%">
-      <Box>
-        <InstagramWrapper/>
+    <Container maxWidth="lg" width="100%" sx={{
+      marginTop: "1rem",
+      height:"100%"
+      }}
+    >
+      <Box sx={{flexGrow: 1}} height="100%">
+        <InstagramWrapper />
       </Box>
     </Container>
   )
