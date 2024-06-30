@@ -1,5 +1,5 @@
 import { Box, Container } from '@mui/material';
-import { InstagramWrapper } from './components/instagramWrapper';
+import {InstagramWrapper} from './components/instagramWrapper';
 
 function App() {
   return (
